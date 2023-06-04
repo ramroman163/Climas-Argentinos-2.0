@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/scrollbar.css">
+    <link rel="shortcut icon" href="./img/Cloud Icon.png" type="image/x-icon">
+    <title>Climas Argentinos</title>
+</head>
+<body>
+    <header class="header header--bg">
+        <img class="header__sun" src="./img/Sun Icon.svg" alt="sun-icon">
+        <img class="header__logo" src="./img/Logo CA Blanco.png" alt="logo-climas-argentinos">
+    </header>
+    <main>
+        <section class="content">
+            <section class="phrase">
+                <h2 class="phrase__title">Buscá el clima de cualquier ciudad en Argentina</h2>
+                <p class="phrase__subtitle">Fácil y rápido.</p>
+            </section>
+            <section class="search">
+                <form class="search__form" action="">
+                    <input class="search__input" type="text" autofocus="none" placeholder="Ingresa una ciudad" name="city-name" autocomplete="off" id="search-box">
+                </form>
+                <p class="search__warning">Ciudad no encontrada</p>
+            </section>
+            <section class="cities">
+                
+            </section>
+            <section class="card">
+                <div class="card__desc">
+                    <div class="card__img-container">
+                        <img class="card__icon" src="" alt="weather-icon">
+                    </div>
+                    <p class="card__weather-desc">Descripción</p>
+                </div>
+                <div class="card__data">
+                    <img src="./img/Thermometer Icon.svg" alt="thermometer-icon">
+                    <p><span class="card__temp">0.00</span> °C</p>
+                </div>
+                <div class="card__data">
+                    <img src="./img/Pour Icon.svg" alt="cloud-icon">
+                    <p><span class="card__hum">0</span>%</p>
+                </div>
+                <div class="card__data">
+                    <img src="./img/Wind Icon.svg" alt="wind-icon">
+                    <p><span class="card__wind">0.00</span> m/s</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__credits">
+            <p>Realizado por Román Martinez</p>
+            <a class="footer__icon" href="https://github.com/ramroman163/climasargentinos" target="_blank "><img src="./img/GitHub Icon.svg" alt="logo-github"></a>
+        </div>
+    </footer>
+    
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
